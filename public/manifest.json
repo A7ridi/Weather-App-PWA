@@ -3,13 +3,30 @@
   "name": "Weather App PWA",
   "icons": [
     {
-      "src": "/images/logo.png",
-      "type": "images/png",
-      "sizes": "1024*1024"
+      "src": "/images/logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/images/logo256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "/images/logo32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "/images/maskable_icon.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ],
   "start_url": ".",
   "display": "standalone",
+  "prefer_related_applications": true,
   "theme_color": "#000000",
   "background_color": "#fff"
 }
